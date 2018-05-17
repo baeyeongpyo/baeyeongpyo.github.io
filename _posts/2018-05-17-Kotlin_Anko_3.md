@@ -64,7 +64,7 @@ View ID는 values -> ids.xml 에서 위 처럼 설정해주면 됩니다.
 
 하지만 Activity에 View를 그리는 것은 복잡하게(?) 보이므로 따로 클래스를 만들어서 빼주겠습니다.
 
-``` kotin
+``` kotlin
 class AnkoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -110,7 +110,7 @@ Kotlin에서는 kotlin-android-extensions Plugin 을 사용하게 되면 findVie
 
 자바도 Anko를 사용하게 되면 FindViewByid를 사용하지 않아도 View를 사용할수 있습니다.
 
-```
+``` kotlin
 class AnkoUIMaker(val context: Context) {
     private val constraintlayoutID = R.id.ankoConstraintLayout
     // 추가
