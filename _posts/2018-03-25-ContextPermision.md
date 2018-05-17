@@ -16,7 +16,6 @@ tags: [이론]
 <dt>시스템 서비스에서 제공하는 API를 호출 할 수 있는 기능</dt>
 <dd> -> startActivity(), bindService() 등의 함수 호출</dd>
 </dl>
-</p>
 
 위와 같이 Context는 API를 호출하거나 시스템을 호출할때 쓰입니다.
 
