@@ -94,7 +94,7 @@ XML을 대신해서 쓸수있는 Class 입니다.
 
 이렇게 사용하게 되면 Kotlin Anko를 이용해서 View를 만들고 Java Code로 사용할수 있게 되었습니다.
 
-``` Java
+``` java
 public class AnkoActivity_java extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
